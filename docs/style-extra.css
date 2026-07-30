@@ -22,7 +22,7 @@
 
 /* Match the approved LP rhythm: smaller desktop type, tighter bands, and illustrated steps. */
 @media (min-width:761px) { .section { padding-top:86px; padding-bottom:86px; }.section h2,.cta h2 { font-size:43px; }.features>h2 { margin-bottom:52px; }.feature { min-height:276px; gap:58px; }.feature h3 { font-size:29px; }.how { padding-top:76px; padding-bottom:72px; }.how h2 { font-size:42px; }.steps { margin-top:28px; gap:38px; }.use-cases { padding-top:88px; padding-bottom:84px; } }
-.how .steps { max-width:1040px; min-height:210px; padding-top:20px; background:url("images/steps.png") center 0/100% auto no-repeat; }
+.how .steps { max-width:1040px; min-height:310px; padding-top:20px; background:url("images/steps-editorial.png") center 0/100% auto no-repeat; }
 .how .steps article { padding-top:140px; position:relative; }.how .steps article b { position:absolute; top:116px; left:calc(50% - 79px); }.how .step-icon { display:none; }.how .steps h3 { font-size:18px; }.how .steps p { display:none; }.thread { top:204px; }
 .feature-copy h3::before { content:""; display:inline-block; width:24px; height:24px; margin-right:13px; vertical-align:-3px; border:1.5px solid var(--coral); border-radius:50%; box-shadow:inset 0 0 0 6px #faf8f2; }
 .app-store-badge { width:136px; height:auto; display:block; margin-top:18px; }
