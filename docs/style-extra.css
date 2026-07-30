@@ -1,0 +1,4 @@
+.faq details summary { list-style:none; cursor:pointer; padding:21px 26px 21px 0; font:600 15px Arial,sans-serif; position:relative; }
+.faq details summary::-webkit-details-marker { display:none; }
+.faq details summary::after { content:"+"; position:absolute; right:0; top:16px; font-size:22px; font-weight:400; }
+.faq details[open] summary::after { content:"−"; }
