@@ -13,7 +13,7 @@
 .feature-media .feature-texture { display:none; }
 .feature-media::after { content:""; position:absolute; inset:0; background:linear-gradient(90deg,#fbfaf4 0%,transparent 42%); }
 .feature-media .phone,.feature-media>span { z-index:1; }
-.case-image { background-image:url("images/use-cases.png"); background-size:300% 100%; }
+.case-image { background-image:url("images/use-cases.png"); background-size:300% auto; background-repeat:no-repeat; }
 .case-image::before { display:none; }
 .case-image.first { background-position:left center; }.case-image.second { background-position:center center; }.case-image.third { background-position:right center; }
 .cta { background:#102649 url("images/cta-craft.png") right center/auto 100% no-repeat; }
