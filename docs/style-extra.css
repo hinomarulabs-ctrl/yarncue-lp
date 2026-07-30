@@ -2,3 +2,20 @@
 .faq details summary::-webkit-details-marker { display:none; }
 .faq details summary::after { content:"+"; position:absolute; right:0; top:16px; font-size:22px; font-weight:400; }
 .faq details[open] summary::after { content:"−"; }
+
+/* Photography replaces decorative geometry; the phone remains a replaceable product-screen frame. */
+.hero-visual { background:url("images/hero-craft.png") center/cover no-repeat; border-radius:0 0 0 140px; }
+.hero-visual .hero-yarn,.hero-visual .lace { display:none; }
+.hero-visual .phone { left:31%; top:6%; transform:rotate(3deg); }
+.desk-scene { background:url("images/feature-desk.png") center/cover no-repeat; }
+.desk-scene .desk-yarn,.desk-scene .notebook { display:none; }
+.feature-media { background-image:url("images/feature-desk.png"); background-size:cover; background-position:center; }
+.feature-media .feature-texture { display:none; }
+.feature-media::after { content:""; position:absolute; inset:0; background:linear-gradient(90deg,#fbfaf4 0%,transparent 42%); }
+.feature-media .phone,.feature-media>span { z-index:1; }
+.case-image { background-image:url("images/use-cases.png"); background-size:300% 100%; }
+.case-image::before { display:none; }
+.case-image.first { background-position:left center; }.case-image.second { background-position:center center; }.case-image.third { background-position:right center; }
+.cta { background:#102649 url("images/cta-craft.png") right center/auto 100% no-repeat; }
+.cta-craft { display:none; }
+@media (max-width:760px) { .hero-visual { margin-left:-24px;margin-right:-24px; border-radius:0; }.feature-media::after { background:linear-gradient(90deg,#fbfaf4aa 0%,transparent 80%); }.cta { background-size:auto 46%; background-position:right bottom; } }
