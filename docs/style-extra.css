@@ -35,14 +35,14 @@ footer .brand img { width:24px; height:24px; border-radius:7px; }
 /* Evidence captured from the Yarncue app project. Keep the device chrome from the LP, but show the actual screens inside it. */
 .phone-real-empty .phone-screen,
 .phone-real-count .phone-screen,
-.phone-store-count .phone-screen { padding:0; background-color:#fff; background-repeat:no-repeat; background-position:center; background-size:cover; }
+.phone-projects-list .phone-screen { padding:0; background-color:#fff; background-repeat:no-repeat; background-position:center; background-size:cover; }
 .phone-real-empty .phone-screen { background-image:url("images/real/projects-empty.png"); }
 .phone-real-count .phone-screen { background-image:url("images/real/count-workspace.png"); }
-.phone-store-count .phone-screen { background-image:url("images/real/count-screen-crop.png"); }
+.phone-projects-list .phone-screen { background-image:url("images/real/projects-screen-crop.png"); }
 .phone-real-empty .phone-screen > *,
 .phone-real-count .phone-screen > *,
-.phone-store-count .phone-screen > * { display:none; }
+.phone-projects-list .phone-screen > * { display:none; }
 .feature-media .phone-real-empty .phone-screen,
-.feature-media .phone-real-count .phone-screen { background-size:100% auto; background-position:center top; }
-.feature-media .phone-store-count .phone-screen { background-size:cover; }
+.feature-media .phone-real-count .phone-screen,
+.feature-media .phone-projects-list .phone-screen { background-size:100% auto; background-position:center top; }
 @media (max-width:760px) { .how { padding-top:58px; padding-bottom:56px; }.how h2 { font-size:33px; }.how .steps { display:block; min-height:0; margin-top:18px; padding:286px 0 0; background-size:150% auto; background-position:center top; }.how .steps article { padding:0; margin:0 0 28px; text-align:center; }.how .steps article b { position:static; display:block; margin-bottom:6px; }.how .steps h3 { font-size:18px; line-height:1.55; }.how .steps article:last-child { margin-bottom:0; } }
