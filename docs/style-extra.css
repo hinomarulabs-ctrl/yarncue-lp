@@ -28,6 +28,9 @@
 .how .steps article { padding-top:166px; position:relative; }.how .steps article b { position:absolute; top:140px; left:calc(50% - 79px); }.how .step-icon { display:none; }.how .steps h3 { font-size:18px; }.how .steps p { display:none; }.thread { display:none; }
 .feature-copy h3::before { content:""; display:inline-block; width:24px; height:24px; margin-right:13px; vertical-align:-3px; border:1.5px solid var(--coral); border-radius:50%; box-shadow:inset 0 0 0 6px #faf8f2; }
 .app-store-badge { width:136px; height:auto; display:block; margin-top:18px; }
+.brand { display:inline-flex; align-items:center; gap:9px; }
+.brand img { width:28px; height:28px; border-radius:8px; object-fit:cover; box-shadow:0 2px 8px #19284518; }
+footer .brand img { width:24px; height:24px; border-radius:7px; }
 
 /* Evidence captured from the Yarncue app project. Keep the device chrome from the LP, but show the actual screens inside it. */
 .phone-real-empty .phone-screen,
@@ -35,7 +38,7 @@
 .phone-store-count .phone-screen { padding:0; background-color:#fff; background-repeat:no-repeat; background-position:center; background-size:cover; }
 .phone-real-empty .phone-screen { background-image:url("images/real/projects-empty.png"); }
 .phone-real-count .phone-screen { background-image:url("images/real/count-workspace.png"); }
-.phone-store-count .phone-screen { background-image:url("images/real/app-store-count.png"); }
+.phone-store-count .phone-screen { background-image:url("images/real/count-screen-crop.png"); }
 .phone-real-empty .phone-screen > *,
 .phone-real-count .phone-screen > *,
 .phone-store-count .phone-screen > * { display:none; }

@@ -3,5 +3,5 @@
 .feature:first-child .feature-media { background-image:url("../images/feature-desk-real-en.png"); }
 .phone-real-empty .phone-screen { background-image:url("../images/real/en-projects.png"); }
 .phone-real-count .phone-screen { background-image:url("../images/real/en-count.png"); }
-.phone-store-count .phone-screen { background-image:url("../images/real/en-project-list.png"); }
+.phone-store-count .phone-screen { background-image:url("../images/real/en-count-screen.png"); }
 .feature:nth-child(4) .phone-real-count .phone-screen { background-image:url("../images/real/en-progress.png"); }
