@@ -12,3 +12,4 @@
 - `count-workspace.png` — iOS実機カウント画面（393×852）
 - `settings.png` — iOS実機設定画面（393×852）
 - `app-store-count.png` — 日本語App Store用ビジュアル（1242×2688）
+- `feature-desk-real.png` — 実機カウント画面をGPT Imageで机上写真へ合成したLP用ビジュアル

@@ -7,10 +7,12 @@
 .hero-visual { background:url("images/hero-craft.png") center/cover no-repeat; border-radius:0 0 0 140px; }
 .hero-visual .hero-yarn,.hero-visual .lace { display:none; }
 .hero-visual .phone { left:31%; top:6%; transform:rotate(3deg); }
-.desk-scene { background:url("images/feature-desk.png") center/cover no-repeat; }
+.desk-scene { background:url("images/feature-desk-real.png") center/cover no-repeat; }
 .desk-scene .desk-yarn,.desk-scene .notebook { display:none; }
 .feature-media { background-image:url("images/feature-desk.png"); background-size:cover; background-position:center; }
 .feature-media .feature-texture { display:none; }
+.feature:first-child .feature-media { background-image:url("images/feature-desk-real.png"); background-position:center; }
+.feature:first-child .feature-media .phone { display:none; }
 .feature-media::after { content:""; position:absolute; inset:0; background:linear-gradient(90deg,#fbfaf4 0%,transparent 42%); }
 .feature-media .phone,.feature-media>span { z-index:1; }
 .case-image { background-image:url("images/use-cases.png"); background-size:300% auto; background-repeat:no-repeat; }
