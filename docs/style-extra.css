@@ -40,6 +40,8 @@ footer .brand img { width:24px; height:24px; border-radius:7px; }
 .phone-real-count .phone-screen { background-image:url("images/real/count-workspace.png"); }
 .phone-projects-list .phone-screen { background-image:url("images/real/history.png"); }
 .feature:nth-child(4) .phone-real-count .phone-screen { background-image:url("images/real/resume-workspace.png"); }
+.feature:first-child .feature-media { background-image:none; }
+.feature:first-child .feature-media .phone { display:block; }
 .phone-real-empty .phone-screen > *,
 .phone-real-count .phone-screen > *,
 .phone-projects-list .phone-screen > * { display:none; }
