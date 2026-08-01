@@ -39,6 +39,7 @@ footer .brand img { width:24px; height:24px; border-radius:7px; }
 .phone-real-empty .phone-screen { background-image:url("images/real/projects-empty.png"); }
 .phone-real-count .phone-screen { background-image:url("images/real/count-workspace.png"); }
 .phone-projects-list .phone-screen { background-image:url("images/real/projects-screen-crop.png"); }
+.phone-projects-list .phone-screen { background-image:url("images/real/history.png"); }
 .phone-real-empty .phone-screen > *,
 .phone-real-count .phone-screen > *,
 .phone-projects-list .phone-screen > * { display:none; }
