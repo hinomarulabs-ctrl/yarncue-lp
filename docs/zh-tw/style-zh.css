@@ -1,6 +1,6 @@
 html[lang="zh-TW"] body { font-family: Arial, "PingFang TC", "Microsoft JhengHei", sans-serif; }
 html[lang="zh-TW"] h1, html[lang="zh-TW"] h2, html[lang="zh-TW"] h3, html[lang="zh-TW"] .brand { font-family: Georgia, "Songti TC", "STKaiti", serif; }
-html[lang="zh-TW"] .phone-real-empty .phone-screen { background-image:url("../images/real/zh-projects-empty.png"); }
-html[lang="zh-TW"] .phone-real-count .phone-screen { background-image:url("../images/real/zh-count.png"); }
-html[lang="zh-TW"] .feature:nth-child(3) .phone-projects-list .phone-screen { background-image:url("../images/real/zh-history-crop.png"); background-size:contain; background-position:center top; min-height:100%; }
-html[lang="zh-TW"] .feature:nth-child(4) .phone-real-count .phone-screen { background-image:url("../images/real/zh-projects-list.png"); }
+html[lang="zh-TW"] .phone-real-empty .phone-screen { background-image:url("../images/real/zh-tw-projects.png"); }
+html[lang="zh-TW"] .phone-real-count .phone-screen { background-image:url("../images/real/zh-tw-count.png"); }
+html[lang="zh-TW"] .feature:nth-child(3) .phone-projects-list .phone-screen { background-image:url("../images/real/zh-tw-history-crop.png"); background-size:contain; background-position:center top; min-height:100%; }
+html[lang="zh-TW"] .feature:nth-child(4) .phone-real-count .phone-screen { background-image:url("../images/real/zh-tw-projects.png"); }
