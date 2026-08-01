@@ -32,6 +32,13 @@
 .brand img { width:28px; height:28px; border-radius:8px; object-fit:cover; box-shadow:0 2px 8px #19284518; }
 footer .brand img { width:24px; height:24px; border-radius:7px; }
 
+/* Make the language choice read as one intentional control instead of loose nav links. */
+.language-switcher { display:flex; align-items:center; gap:3px; padding:3px; border:1px solid #d9d3c9; border-radius:999px; background:#fffdf9; white-space:nowrap; }
+.language-label { padding:0 7px 0 9px; color:#7c817f; font-size:11px; font-weight:700; letter-spacing:.02em; }
+.language-switcher a { padding:6px 9px; border-radius:999px; color:#59636d; font-size:11px; font-weight:700; }
+.language-switcher a:hover { background:#f0ece5; opacity:1; }
+.language-switcher a.is-current { background:var(--ink); color:#fff; }
+
 /* Evidence captured from the Yarncue app project. Keep the device chrome from the LP, but show the actual screens inside it. */
 .phone-real-empty .phone-screen,
 .phone-real-count .phone-screen,
@@ -53,7 +60,7 @@ footer .brand img { width:24px; height:24px; border-radius:7px; }
 .feature-media .phone-real-empty .phone-screen,
 .feature-media .phone-real-count .phone-screen,
 .feature-media .phone-projects-list .phone-screen { background-size:100% auto; background-position:center top; }
-@media (max-width:760px) { .how { padding-top:58px; padding-bottom:56px; }.how h2 { font-size:33px; }.how .steps { display:block; min-height:0; margin-top:18px; padding:286px 0 0; background-size:150% auto; background-position:center top; }.how .steps article { padding:0; margin:0 0 28px; text-align:center; }.how .steps article b { position:static; display:block; margin-bottom:6px; }.how .steps h3 { font-size:18px; line-height:1.55; }.how .steps article:last-child { margin-bottom:0; } }
+@media (max-width:760px) { .how { padding-top:58px; padding-bottom:56px; }.how h2 { font-size:33px; }.how .steps { display:block; min-height:0; margin-top:18px; padding:286px 0 0; background-size:150% auto; background-position:center top; }.how .steps article { padding:0; margin:0 0 28px; text-align:center; }.how .steps article b { position:static; display:block; margin-bottom:6px; }.how .steps h3 { font-size:18px; line-height:1.55; }.how .steps article:last-child { margin-bottom:0; } .language-switcher { margin-left:auto; padding:2px; }.language-label { display:none; }.language-switcher a { padding:5px 7px; font-size:10px; } }
 
 /* Japanese feature review: make all four product states legible at once. */
 @media (min-width:761px) {
