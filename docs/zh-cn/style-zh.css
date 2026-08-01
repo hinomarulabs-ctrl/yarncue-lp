@@ -2,5 +2,5 @@ html[lang="zh-CN"] body { font-family: Arial, "PingFang SC", "Microsoft YaHei", 
 html[lang="zh-CN"] h1, html[lang="zh-CN"] h2, html[lang="zh-CN"] h3, html[lang="zh-CN"] .brand { font-family: Georgia, "Songti SC", "STSong", serif; }
 html[lang="zh-CN"] .phone-real-empty .phone-screen { background-image:url("../images/real/zh-projects-empty.png"); }
 html[lang="zh-CN"] .phone-real-count .phone-screen { background-image:url("../images/real/zh-count.png"); }
-html[lang="zh-CN"] .feature:nth-child(3) .phone-projects-list .phone-screen { background-image:url("../images/real/zh-history-crop.png"); background-size:cover; background-position:center top; min-height:100%; }
+html[lang="zh-CN"] .feature:nth-child(3) .phone-projects-list .phone-screen { background-image:url("../images/real/zh-history-crop.png"); background-size:contain; background-position:center top; min-height:100%; }
 html[lang="zh-CN"] .feature:nth-child(4) .phone-real-count .phone-screen { background-image:url("../images/real/zh-projects-list.png"); }
