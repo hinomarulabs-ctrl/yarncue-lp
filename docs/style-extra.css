@@ -51,3 +51,21 @@ footer .brand img { width:24px; height:24px; border-radius:7px; }
 .feature-media .phone-real-count .phone-screen,
 .feature-media .phone-projects-list .phone-screen { background-size:100% auto; background-position:center top; }
 @media (max-width:760px) { .how { padding-top:58px; padding-bottom:56px; }.how h2 { font-size:33px; }.how .steps { display:block; min-height:0; margin-top:18px; padding:286px 0 0; background-size:150% auto; background-position:center top; }.how .steps article { padding:0; margin:0 0 28px; text-align:center; }.how .steps article b { position:static; display:block; margin-bottom:6px; }.how .steps h3 { font-size:18px; line-height:1.55; }.how .steps article:last-child { margin-bottom:0; } }
+
+/* Japanese feature review: make all four product states legible at once. */
+@media (min-width:761px) {
+  .feature-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:42px 30px; }
+  .feature,.feature.reverse { display:flex; flex-direction:column; align-items:stretch; gap:22px; min-height:0; margin:0; direction:ltr; }
+  .feature-media { height:360px; }
+  .feature-media .phone { transform:scale(.82); transform-origin:bottom center; }
+  .feature-copy { padding:0 12px 4px; }
+  .feature-copy h3 { font-size:28px; }
+  .feature-copy>p:last-child { max-width:34em; }
+}
+@media (max-width:760px) {
+  .feature-list { display:block; }
+  .feature,.feature.reverse { min-height:0; margin-bottom:58px; }
+  .feature-media { height:300px; }
+  .feature-media .phone { transform:scale(.62); }
+  .feature-copy { padding:0; }
+}
